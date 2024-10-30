@@ -23,6 +23,7 @@ nav {
   color: white;
   position: fixed;
   width: 100%;
+  z-index: 1;
 }
 
 /* responsive */
@@ -32,7 +33,8 @@ nav.active {
 }
 
 nav h2.logo {
-  font-weight: bold;
+  padding-left: 15vh;
+  font-weight: 400;
   font-size: xx-large;
   color: #ff702a;
 }
@@ -46,6 +48,7 @@ nav .bars {
 
 ul.nav-links {
   display: flex;
+  padding-right: 6vh;
 }
 
 /* responsive */
@@ -58,7 +61,7 @@ nav.active ul.nav-links {
 
 li.nav-link {
   list-style: none;
-  margin: 0 2px;
+  margin: 0 vh;
   padding: 10px;
   display: flex;
   align-items: center;
@@ -97,11 +100,139 @@ main{
 main .part{
     height: 100vh;
     background-attachment: fixed;
-    z-index: -1;
 }
 
 main #home{
     color: #fff;
     text-align: center;
-    transform: translateY(50%);
 }
+
+main #home .maintable{
+  height: 100vh;
+  padding: 10px;
+  width: 50vh;
+}
+
+main #home .maintable .info{
+  position: absolute;
+  text-align: left;
+  left: 30vh;
+  top: 20vh;
+}
+
+main #home .maintable .info p{
+  color: white;
+  font-weight: 500;
+  font-size: 30px;
+  margin: 0;
+}
+
+main #home .maintable .info h1{
+  color: #ff702a;
+  font-weight: 250;
+  font-size: 15vh;
+}
+
+main #home .maintable .info p{
+  color: white;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+main #home .maintable .info .menutoday{
+  position: relative;
+  top: 10px;
+  text-decoration: none;
+  color: white;
+  border: 1px solid #ff702a;
+  background-color: #ff702a ;
+  padding: 10px 35px;
+  border-radius: 5px;
+}
+
+main #home .maintable .info .menutoday:hover{
+  
+  color: #ff702a;
+  border: 1px solid white;
+  background-color: white ;
+}
+
+main #home .maintable .img{
+  position: absolute;
+  width: 35%;
+  top: 10vh;
+  right: 10vh;
+}
+
+main #about .secondtable{
+  height: 100vh;
+  right: 10vh;
+  position: absolute;
+  top: 100vh;
+  color: white;
+  left: 20vh;
+}
+
+main #about .secondtable .abus{
+  padding-left: 100px;
+}
+
+main #about .secondtable h1{
+  color: #ff702a;
+  font-size: 20px;
+  font-weight: 350;
+}
+
+main #about .secondtable h2{
+  color: white;
+  font-size: 40px;
+  padding-bottom: 10px;
+
+}
+
+main #about .secondtable p{
+  color: white;
+  font-size: 19px;
+  font-weight: 600;
+  padding-bottom: 10px;
+
+}
+
+main #about .secondtable .learnmore{
+  position: relative;
+  top: 10px;
+  text-decoration: none;
+  color: white;
+  border: 1px solid #ff702a;
+  background-color: #ff702a ;
+  padding: 10px 35px;
+  border-radius: 5px;
+}
+
+main #about .secondtable .learnmore:hover{
+  color: #ff702a;
+  border: 1px solid white;
+  background-color: white ;
+}
+
+
+main #menu .secondtable{
+  color:white;
+  height: 100vh;
+  right: 10vh;
+  position: absolute;
+  top: 100vh;
+  color: white;
+  left: 20vh;
+}
+
+
+
+main #service {
+  color: white;
+  height: 100vh;
+  right: 10vh;
+}
+
+
+
