@@ -133,11 +133,6 @@ main #home .maintable .info h1{
   font-size: 15vh;
 }
 
-main #home .maintable .info p{
-  color: white;
-  font-weight: 500;
-  font-size: 30px;
-}
 
 main #home .maintable .info .menutoday{
   position: relative;
@@ -289,12 +284,12 @@ main #menu .thirdtable .food img{
 
 main #service .fourthtable{
   height: 50vh;
-  padding: 10px;
+  padding: 0 25%;
   width: 80%vh;
 }
 
 main #service h1{
-  padding-top: 5%;
+  padding-top: 10%;
   color: #ff702a;
   font-size: 20px;
   font-weight: 350;
@@ -361,6 +356,7 @@ main #contact .lasttable a{
   margin: 5px;
   padding: 10px 35px;
   border-radius: 5px;
+  
 }
 
 main #contact .lasttable a:hover{
@@ -368,3 +364,39 @@ main #contact .lasttable a:hover{
   border: 1px solid #1e1d2b;
   background-color:  #1e1d2b;
 }
+
+footer{
+  height: 30vh;
+  padding: 10px;
+  width: 100%;
+  background-color: #1e1d2b;
+}
+
+footer table{
+  height: 10vh;
+  width: 100%;
+  padding-left: 10%;
+  text-align: left;
+}
+
+footer table th{
+  color: white;
+}
+
+footer table .border{
+}
+
+footer table .link{
+  text-decoration: none;
+  color: white;
+}
+
+footer table .link:hover{
+  color: #ff702a;
+  border: 1px solid #1e1d2b;
+  background-color:  #1e1d2b;
+}
+
+
+
+
