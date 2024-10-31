@@ -165,11 +165,11 @@ main #about .secondtable{
   position: absolute;
   top: 100vh;
   color: white;
-  left: 20vh;
+  left: 20%;
 }
 
 main #about .secondtable .abus{
-  padding-left: 100px;
+  padding: 0 12vh;
 }
 
 main #about .secondtable h1{
@@ -379,14 +379,24 @@ footer table{
   text-align: left;
 }
 
-footer table th{
-  color: white;
+footer table .border{
+  border: 1px white solid;
 }
 
-footer table .border{
+footer table th{
+  color: white;
+  font-size: 30px;
+  font-weight: 400;
+  width: 22.22%;
+}
+
+footer .title .line{
+  width: 80px;
+  border-bottom: 1px solid orange;
 }
 
 footer table .link{
+  position: absolute;
   text-decoration: none;
   color: white;
 }
