@@ -216,23 +216,155 @@ main #about .secondtable .learnmore:hover{
 }
 
 
-main #menu .secondtable{
-  color:white;
-  height: 100vh;
-  right: 10vh;
+main #menu .thirdtable{
+  width: 100%;
+  padding: 0 300px;
+  height: 60vh;
   position: absolute;
-  top: 100vh;
+  text-align: center;
+}
+
+main #menu .text{
+  position: absolute;
+  text-align: center;
+  padding-left: 18%;
+  padding-right: auto;
+}
+
+main #menu h1{
+  padding-top: 5%;
+  color: #ff702a;
+  font-size: 20px;
+  font-weight: 350;
+  text-align: center;
+}
+
+main #menu h2{
   color: white;
-  left: 20vh;
+  font-size: 40px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+main #menu .thirdtable .container{
+  margin-top: 50px;
+  padding: 10px 0;
+  border: 1px #ffefe8 solid;
+  background-color: #ffefe8;
+}
+
+main #menu .thirdtable .food{
+  margin: 10px;
+  margin-top: 100px;
+}
+
+main #menu .thirdtable .food{
+  margin-top: 150px;
+  margin: 10px;
+  padding: 10px;
+}
+
+main #menu .thirdtable .food h3{
+  color: black;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+main #menu .thirdtable .food h4{
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+main #menu .thirdtable .food p{
+  color: #ff702a;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+main #menu .thirdtable .food img{
+  width: 60%;
 }
 
 
+main #service .fourthtable{
+  height: 50vh;
+  padding: 10px;
+  width: 80%vh;
+}
 
-main #service {
+main #service h1{
+  padding-top: 5%;
+  color: #ff702a;
+  font-size: 20px;
+  font-weight: 350;
+  text-align: center;
+}
+
+main #service h2{
   color: white;
+  font-size: 40px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+main #service .fourthtable .text{
+  text-align: center;
+}
+
+main #service .fourthtable .text th{
+  color: #ff702a;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+main #service .fourthtable .text td{
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+main #service .fourthtable img{
+  width: 50%;
+}
+
+main #contact { 
+  padding-top: 15%;
+  margin: 0 10%;
   height: 100vh;
-  right: 10vh;
+  width: 80%;
 }
 
+main #contact .lasttable {
+  height: 68%;
+  width: 100%;
+  text-align: center;
+  background-color: #ffefe8;
+}
 
+main #contact .lasttable td{
+  padding-bottom: 50px;
+}
 
+main #contact .lasttable tr th{
+  color: black;
+  font-size: 40px;
+  padding-bottom: 5px;
+
+}
+
+main #contact .lasttable a{
+  text-decoration: none;
+  color: white;
+  border: 1px solid #ff702a;
+  background-color: #ff702a ;
+  margin: 5px;
+  padding: 10px 35px;
+  border-radius: 5px;
+}
+
+main #contact .lasttable a:hover{
+  color: #ff702a;
+  border: 1px solid #1e1d2b;
+  background-color:  #1e1d2b;
+}
